@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/tt2"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+
+
+
+    <!--<ImageView-->
+        <!--android:id="@+id/imageView2"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_margin="10dp"-->
+        <!--android:layout_marginStart="10dp"-->
+        <!--android:layout_marginTop="0dp"-->
+        <!--android:src="@mipmap/home_btn"-->
+        <!--android:layout_marginLeft="20dp"/>-->
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="20dp"
+        android:src="@mipmap/baithak_logo"
+        android:layout_marginLeft="20dp" />
+
+
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="700dp"
+        android:src="@mipmap/circle"
+        android:layout_height="1200dp"
+        android:layout_marginEnd="-71dp"
+        android:translationY="220dp"
+        tools:ignore="RtlCompat"
+        android:layout_alignParentEnd="true" />
+
+
+
+
+    <!--<ImageView-->
+        <!--android:id="@+id/imageView"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="60dp"-->
+        <!--android:layout_margin="10dp"-->
+        <!--android:layout_marginStart="10dp"-->
+        <!--android:layout_marginTop="0dp"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:src="@mipmap/baithak_logo"-->
+        <!--android:layout_marginLeft="20dp"-->
+        <!--android:layout_alignParentRight="true" />-->
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_marginTop="160dp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:id="@+id/layout"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="980dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+
+            android:fontFamily="@font/arial"
+            android:text="@string/comments_section"
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+    <!--<EditText-->
+        <!--android:layout_width="700dp"-->
+        <!--android:layout_height="600dp"-->
+        <!--android:layout_marginBottom="10dp"-->
+        <!--android:background="@mipmap/password"-->
+        <!--android:layout_marginLeft="130.0dip"-->
+        <!--android:layout_below="@id/layout"-->
+        <!--android:gravity="start"-->
+        <!--android:ellipsize="start"-->
+        <!--android:singleLine="true"-->
+        <!--android:id="@+id/name"-->
+        <!--android:textColor="@color/colorAccent"/>-->
+
+
+
+
+    <EditText
+        android:id="@+id/customer_info"
+        android:layout_width="850dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:hint="Enter Comments...."
+        android:paddingLeft="30dp"
+        android:maxLength="300"
+        android:paddingBottom="220dp"
+        android:layout_below="@id/layout"
+        android:layout_marginTop="-30dp"
+        android:background="@mipmap/rectangle"
+        android:layout_marginBottom="20dp"
+        android:textSize="28sp"
+        android:fontFamily="@font/arial"
+         />
+
+
+
+
+
+    <Button
+        android:id="@+id/home_btn"
+        android:layout_width="200dp"
+        android:layout_height="50.0dip"
+        android:layout_below="@id/customer_info"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="425dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/cust_border_black_radius_10_withborder"
+        android:fontFamily="@font/arial"
+        android:text="Home"
+        android:textSize="20dp"
+        android:textAllCaps="true"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/signin"
+        android:layout_width="200dp"
+        android:layout_height="50.0dip"
+        android:layout_below="@id/customer_info"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="675dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/cust_border_black_radius_10_withborder"
+        android:fontFamily="@font/arial"
+        android:text="Submit"
+        android:textSize="20dp"
+        android:textAllCaps="true"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+
+
+    <!--<EditText-->
+        <!--android:id="@+id/customer_info"-->
+        <!--android:layout_width="550dp"-->
+        <!--android:layout_height="300dp"-->
+        <!--android:layout_below="@id/layout"-->
+        <!--android:layout_marginLeft="170.0dip"-->
+        <!--android:hint="dddddddd"-->
+        <!--android:background="@mipmap/password"-->
+        <!--android:layout_marginBottom="20dp"-->
+        <!--android:textSize="18sp"-->
+        <!--android:gravity="start"-->
+        <!--android:fontFamily="@font/arial"-->
+
+         <!--/>-->
+
+
+
+
+
+</RelativeLayout>

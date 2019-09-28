@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background">
+    <Button
+        android:id="@+id/backbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@android:color/black"
+        android:text="BACK"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Deliciousness jumping into the mouth. We serve passion.."
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textAlignment="center"></TextView>
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <in.goodiebag.carouselpicker.CarouselPicker
+        android:id="@+id/crousalPicker"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content"
+        app:items_visible="three"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:id="@+id/halwaPoori"
+            android:text="Halwa Poor"
+            android:textAlignment="center"
+            android:textColor="@color/blue_btn_bg_pressed_color"
+            android:textStyle="bold" />
+
+    </in.goodiebag.carouselpicker.CarouselPicker>
+    </ScrollView>
+</LinearLayout>

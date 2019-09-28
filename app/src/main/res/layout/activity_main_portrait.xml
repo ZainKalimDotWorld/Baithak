@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background">
+
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="40dp"
+        android:src="@mipmap/baithak_logo" />
+
+
+
+
+
+    <!--<LinearLayout-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="vertical">-->
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        >
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:src="@mipmap/circle"
+            android:layout_height="900dp"
+            android:layout_marginEnd="-71dp"
+            android:translationY="250dp"
+            tools:ignore="RtlCompat"
+            android:layout_alignParentEnd="true" />
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="47dp"
+            android:layout_marginTop="570dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35.0dip"
+                android:fontFamily="@font/arial"
+                android:text="Branch Sign In!"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+            <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+                android:id="@+id/spLeaveSubject2"
+                android:layout_width="250dp"
+                android:layout_height="50.0dip"
+                android:layout_marginLeft="30.0dip"
+                android:layout_marginTop="50.0dip"
+                android:layout_marginRight="30.0dip"
+                android:layout_marginBottom="10dp"
+                android:background="@mipmap/dropdown" />
+
+
+            <EditText
+                android:id="@+id/customer_info"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_below="@id/spLeaveSubject2"
+                android:layout_marginLeft="30.0dip"
+                android:layout_marginTop="10.0dip"
+                android:layout_marginRight="30.0dip"
+                android:layout_marginBottom="15dp"
+                android:background="@mipmap/password"
+                android:fontFamily="@font/arial"
+                android:padding="10dp" />
+
+
+            <Button
+                android:id="@+id/signin"
+                android:layout_width="230dp"
+
+                android:layout_height="wrap_content"
+                android:layout_below="@id/customer_info"
+                android:layout_marginLeft="40.0dip"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/cust_border_black_radius_10_withborder"
+                android:fontFamily="@font/arial"
+                android:text="SUBMIT"
+                android:textAllCaps="true"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textVersion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/signin"
+                android:fontFamily="@font/arial"
+                android:shadowColor="#FFFFFF"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+                android:text="Design And Developed By Dot World Technologies "
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
+    <!--    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="280dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="-51dp"
+        android:layout_marginRight="-1dp"
+        android:src="@mipmap/circle" />-->
+
+

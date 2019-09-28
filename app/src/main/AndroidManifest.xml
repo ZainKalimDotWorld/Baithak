@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.sample">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/baithak_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:icon">
+        <activity android:name=".ThankuActivity"
+            android:screenOrientation="landscape"
+            ></activity>
+        <activity
+            android:name=".Feedback_Submit"
+            android:screenOrientation="landscape"
+
+            android:windowSoftInputMode="stateHidden"></activity>
+        <activity android:name=".Questions_Screen" />
+        <activity
+            android:name=".Feedback_Menu"
+            android:screenOrientation="landscape"
+
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Product_Detail"
+            android:screenOrientation="landscape"
+
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Main_MenuScreen"
+            android:screenOrientation="landscape"
+
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Value_Feedback"
+            android:label="@string/title_activity_value__feedback"
+            android:screenOrientation="landscape"
+
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden" /> <!-- <activity android:name=".MainActivity3"> -->
+        <!--  -->
+        <!-- </activity> -->
+        <activity
+            android:name=".ProductsActivity"
+            android:screenOrientation="landscape"
+            />
+
+
+        <!--android:theme="@style/AppTheme.NoActionBar"-->
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+
+
+
+    </application>
+
+</manifest>

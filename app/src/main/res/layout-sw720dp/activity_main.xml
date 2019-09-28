@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background">
+
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="150dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="20dp"
+        android:src="@mipmap/baithak_logo"
+        android:layout_marginLeft="20dp" />
+
+    <RelativeLayout
+        android:id="@+id/first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        >
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="700dp"
+            android:src="@mipmap/circle"
+            android:layout_height="1200dp"
+            android:layout_marginEnd="-71dp"
+            android:translationY="470dp"
+            tools:ignore="RtlCompat"
+            android:layout_alignParentEnd="true" />
+
+
+        <RelativeLayout
+            android:layout_width="850dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="360dp"
+            android:layout_marginTop="900dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40.0dip"
+                android:layout_marginTop="1dp"
+                android:fontFamily="@font/arial"
+                android:text="Branch Sign In!"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+            <Spinner
+                android:id="@+id/spLeaveSubject2"
+                android:layout_width="250dp"
+                android:layout_height="50.0dip"
+                android:layout_gravity="left"
+                android:paddingStart="15dp"
+                android:paddingLeft="15dp"
+                android:layout_marginLeft="30.0dip"
+                android:layout_marginTop="45.0dip"
+                android:layout_marginRight="30.0dip"
+                android:background="@mipmap/dropdown" />
+
+
+            <EditText
+                android:id="@+id/customer_info"
+                android:layout_width="250dp"
+                android:layout_height="50.0dip"
+                android:layout_below="@id/spLeaveSubject2"
+                android:layout_marginLeft="30.0dip"
+                android:maxLength="12"
+                android:maxLines="1"
+                android:textSize="18sp"
+                android:hint="Enter Pin Code"
+                android:inputType="textPassword"
+                android:layout_marginRight="30.0dip"
+                android:layout_marginBottom="10dp"
+                android:background="@mipmap/password"
+                android:fontFamily="@font/arial"
+                android:padding="10dp"
+                android:paddingStart="25dp"
+                android:paddingLeft="25dp" />
+
+
+            <Button
+                android:id="@+id/signin"
+                android:layout_width="237dp"
+                android:layout_height="50.0dip"
+                android:layout_below="@id/customer_info"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="34dp"
+                android:background="@drawable/cust_border_black_radius_10_withborder"
+                android:fontFamily="@font/arial"
+                android:text="Sign in Now"
+                android:textAllCaps="true"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textVersion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/signin"
+                android:fontFamily="@font/arial"
+                android:shadowColor="#FFFFFF"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+                android:text="@string/design_develop"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
+    <!--    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="280dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="-51dp"
+        android:layout_marginRight="-1dp"
+        android:src="@mipmap/circle" />-->
+
+

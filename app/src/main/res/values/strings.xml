@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Baithak</string>
+
+    <string name="title_activity_value__feedback">Value_Feedback</string>
+    <string name="title_activity_product__detail">Product_Detail</string>
+    <string name="design_develop">design &amp; developed by DOT WORLD (https://dotworldtechnologies.com)</string>
+    <string name="comments_section">Comments &amp; Suggestions</string>
+</resources>

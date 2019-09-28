@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list>
+    <item n1:left="1.0dip" n1:top="1.0dip" n1:right="1.0dip" n1:bottom="1.0dip"
+        xmlns:n1="http://schemas.android.com/apk/res/android">
+        <shape n1:shape="rectangle">
+            <solid n1:color="@android:color/white" />
+            <stroke n1:width="1.0px" n1:color="@android:color/darker_gray" />
+            <corners n1:radius="10.0dip" />
+            <padding n1:left="3.0dip" n1:top="3.0dip" n1:right="15.0dip" n1:bottom="3.0dip" />
+        </shape>
+    </item>
+    <item>
+        <bitmap n2:gravity="center|right" n2:src="@mipmap/icon_arrow_down_grey"
+            xmlns:n2="http://schemas.android.com/apk/res/android" />
+    </item>
+</layer-list>

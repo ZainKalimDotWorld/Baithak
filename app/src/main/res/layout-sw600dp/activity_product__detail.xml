@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@mipmap/background2">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/background2">
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:src="@mipmap/back_btn"
+            android:layout_marginLeft="130dp"
+            android:layout_marginStart="70dp" />
+
+        <!--<Button-->
+        <!--android:id="@+id/backbtn"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_margin="10dp"-->
+        <!--android:background="@android:color/black"-->
+        <!--android:text="BACK"-->
+        <!--android:textColor="@android:color/white"-->
+        <!--android:textSize="24sp"-->
+        <!--android:textStyle="bold" />-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+
+            app:cardCornerRadius="5dp">
+
+
+            <TextView
+                android:id="@+id/textView_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Halwa Puri - Ingredients Details:"
+                android:textColor="#2C0101"
+                android:textSize="27sp"
+                android:textStyle="bold"
+                app:fontFamily="sans-serif" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="5dp">
+
+
+            <TextView
+                android:id="@+id/textView_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AED: 10"
+                android:textColor="#2C0101"
+                android:textSize="27sp"
+                android:textStyle="bold"
+                app:fontFamily="sans-serif" />
+        </androidx.cardview.widget.CardView>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="210dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/imageView"
+                android:scaleType="fitXY"
+                android:layout_alignParentRight="true"
+                app:srcCompat="@drawable/download"
+                android:layout_alignParentEnd="true" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView_3"
+                android:layout_width="500dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="left"
+                app:cardCornerRadius="5dp">
+
+
+                <TextView
+                    android:id="@+id/textView_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Halwa puri has developed into a traditional breakfast consisting of a deep fried bread (puri), served with halwa and curries mixed of ickpeas(known locally as 'choley') and potato. Traditional mango pickle and onion pickle are also served along with fresh yogurt.A variety of bakeries ofen set up stalls of Halwa Puri for breakfast hat offer dine in at the street scene or offer take away. It has become very popular among middle,upper and elite classses to enjoy a breakfast of halwa Puri."
+                    android:textColor="#2C0101"
+                    android:textSize="20sp"
+                    app:fontFamily="sans-serif">
+
+                </TextView>
+
+            </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/textView_34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text=" Breakfast"
+            android:textColor="#2C0101"
+            android:textSize="20sp"
+            app:fontFamily="sans-serif"/>
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_marginTop="50dp"
+            android:paddingBottom="250dp"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/cardView_3" />
+
+    </LinearLayout>
+</ScrollView>
+
+
